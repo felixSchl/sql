@@ -24,6 +24,14 @@ executable sql
                      , directory
                      , filepath
                      , safe
+                     , aeson
+                     , bytestring
+                     , transformers
+                     , containers
+                     , turtle
+                     , either
+                     , pipes
+                     , pipes-concurrency
   default-language:    Haskell2010
 
 source-repository head
